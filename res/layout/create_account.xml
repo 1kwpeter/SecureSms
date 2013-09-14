@@ -29,7 +29,7 @@
 				android:layout_width="wrap_content" android:layout_height="wrap_content"
 				android:singleLine="true"
 				android:minWidth="120dp"
-				android:hint="beem"
+				android:hint="handynummer"
 				android:contentDescription="@string/create_account_username"/>
 			<TextView
 				android:layout_width="wrap_content" android:layout_height="wrap_content"
@@ -38,7 +38,7 @@
 		    android:layout_width="wrap_content" android:layout_height="wrap_content"
 			android:minWidth="160dp"
 		    android:gravity="left"
-		    android:hint="beem-project.com"
+		    android:hint="xmpp.dev-forge.de"
 		    android:completionThreshold="1"
 		    android:inputType="textNoSuggestions"
 		    />

@@ -88,7 +88,7 @@
 	<PreferenceCategory android:title="@string/user_preferences_advanced">
 		<EditTextPreference android:key="connection_resource"
 			android:title="@string/SettingsResourceTitle" android:summary="@string/SettingsResourceSummary"
-			android:defaultValue="Beem" />
+			android:defaultValue="Pst!" />
 		<EditTextPreference android:key="connection_priority"
 			android:title="@string/SettingsPriorityTitle" android:summary="@string/SettingsPrioritySummary"
 			android:numeric="signed" android:defaultValue="0" />

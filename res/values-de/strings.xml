@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 <!-- Generic terms -->
-<string name="app_name">Beem</string>
+<string name="app_name">pst!</string>
 <string name="OkButton">Ok</string>
 <string name="ClearButton">Löschen</string>
 <string name="CancelButton">Abbrechen</string>
@@ -21,9 +21,9 @@
 <string name="BeemApplicationConnect">Verbinden...</string>
 
 <!--  BeemService class -->
-<string name="BeemServiceDescription">Benutze Beem Service</string>
-<string name="BeemServiceCreated">Beem Service erstellt</string>
-<string name="BeemServiceDestroyed">Beem Service verworfen</string>
+<string name="BeemServiceDescription">Benutze Pst! Service</string>
+<string name="BeemServiceCreated">Pst! Service erstellt</string>
+<string name="BeemServiceDestroyed">Pst! Service verworfen</string>
 
 <!--  ContactDialog class -->
 <string name="CDChat">Chatten</string>
@@ -31,7 +31,7 @@
 <string name="CDInfos">Kontakt bearbeiten</string>
 
 <!-- AddContact class -->
-<string name="AddCActTitle">Beem - Kontakt hinzufügen</string>
+<string name="AddCActTitle">Pst! - Kontakt hinzufügen</string>
 
 <string name="AddCLogin">Benutzername</string>
 <string name="AddCAlias">Alias</string>
@@ -44,13 +44,13 @@
 <string name="AddCContactAlready">Kontakt existiert bereits</string>
 
 <!--  ChangeStatus class -->
-<string name="ChangeStatusActTitle">Beem - Meinen Status ändern</string>
+<string name="ChangeStatusActTitle">Pst! - Meinen Status ändern</string>
 <string name="ChangeStatusType">Mein Status</string>
 <string name="ChangeStatusMessage">Meine persönliche Nachricht</string>
 <string name="OpenContactList">Kontaktliste öffnen</string>
 
 <string name="MenuAddContact">Kontakt hinzufügen</string>
-<string name="MenuAccountAbout">Beem Project</string>
+<string name="MenuAccountAbout">Pst! Project</string>
 <string name="MenuAccountCreate">Konto erstellen</string>
 <string name="MenuConnection">Konto bearbeiten</string>
 <string name="ChangeStatusOk">Aktualisiere Status</string>
@@ -94,7 +94,7 @@
 <string name="CLP_hidden_contact_sum">Check this option to hide unconnected buddies
 </string>
 <string name="settings_account_username">Benutzername (JID)</string>
-<string name="login_username_info_default">beem@beem-project.com</string>
+<string name="login_username_info_default">pst@xmpp.dev-forge.de</string>
 <string name="settings_account_password">Passwort</string>
 <string name="settings_account_server">Server</string>
 <string name="settings_account_port">Port</string>
@@ -149,21 +149,21 @@
 <string name="BeemChatManagerNewMessage">Du hast eine neue Nachricht</string>
 
 <!--  BeemBroadcastReceiver class -->
-<string name="BeemBroadcastReceiverDisconnect">BEEM: Die Verbindung wurde getrennt</string>
+<string name="BeemBroadcastReceiverDisconnect">Pst: Die Verbindung wurde getrennt</string>
 
 <!--  XmppConnectionAdapter class -->
 <string name="AcceptContactRequest">%s hat dich gerade zu seiner/ihrer Kontaktliste hinzugefügt.</string>
 <string name="AcceptContactRequestFrom">Authorisiere %s dich zu kontaktieren.</string>
 
 <!-- Activities -->
-<string name="login_tag">Beem - Anmeldung</string>
-<string name="edit_settings_name">Beem - Einstellungen</string>
-<string name="edit_settings_tag">Beem - Einstellungen bearbeiten</string>
-<string name="create_account_name">Beem - Konto erstellen</string>
-<string name="create_account_tag">Beem - Konto erstellen</string>
-<string name="contact_list_name">Beem - Kontakte</string>
-<string name="contact_list_tag">Beem - Kontaktliste</string>
-<string name="user_info_name">Beem - Benutzerinformation</string>
+<string name="login_tag">Pst! - Anmeldung</string>
+<string name="edit_settings_name">Pst! - Einstellungen</string>
+<string name="edit_settings_tag">Pst! - Einstellungen bearbeiten</string>
+<string name="create_account_name">Pst! - Konto erstellen</string>
+<string name="create_account_tag">Pst! - Konto erstellen</string>
+<string name="contact_list_name">Pst! - Kontakte</string>
+<string name="contact_list_tag">Pst! - Kontaktliste</string>
+<string name="user_info_name">Pst! - Benutzerinformation</string>
 
 <!-- Buttons -->
 <string name="button_create_account">Dieses Konto erstellen</string>
@@ -177,10 +177,9 @@
 <string name="login_menu_create_account">Konto erstellen</string>
 <string name="login_menu_settings">Einstellungen</string>
 <string name="login_menu_about">Über</string>
-<string name="login_about_title">Beem %s - Über</string>
+<string name="login_about_title">Pst! %s - Über</string>
 <string name="login_about_msg">
-Beem is an EPITECH Innovative Project. Visit us at
-http://www.beem-project.com !
+Pst! is a research project from h_da students!
 </string>
 <string name="login_about_button">Schließen</string>
 <string name="login_settings_button">Einstellungen</string>
@@ -226,7 +225,7 @@ detail:\n%s</string>
 
 
 <!-- wizard activities -->
-<string name="account_wizard_text1"><b>Willkommen bei BEEM.</b>nnDu hast noch kein XMPP (Jabber) Konto konfiguriert. Wähle eine der folgenden Optionen:</string>
+<string name="account_wizard_text1"><b>Willkommen bei Pst!</b>Du hast noch kein Konto konfiguriert. Wähle eine der folgenden Optionen:</string>
 <string name="account_wizard_configure_text"><b>Bitte trage die Zugangsdaten für dein vorhandenes Konto ein</b></string>
 <string name="account_wizard_configure_account">Ich habe bereits ein Konto, das ich benutzen will</string>
 <string name="account_wizard_create_account">Ich möchte ein neues Konto registrieren</string>
@@ -239,7 +238,7 @@ detail:\n%s</string>
 <string name="create_account_successfull_after">Das Konto %s wurde erfolgreich erstellt</string>
 <string name="create_account_err_username">Mangelhafte Jabber ID</string>
 <string name="create_account_err_passwords">Passwörter stimmen nicht überein.</string>
-<string name="create_account_username">Benutzername</string>
+<string name="create_account_username">Telefonnummer</string>
 <string name="create_account_password">Passwort</string>
 <string name="create_account_confirm_password">Passwort bestätigen</string>
 
@@ -264,7 +263,7 @@ detail:\n%s</string>
 <string name="userinfo_no">Nein</string>
 <string name="userinfo_sureresend">Bist du sicher, dass du die Einladung erneut senden willst?</string>
 
-<string name="chat_name">Beem - Chat</string>
+<string name="chat_name">Pst! - Chat</string>
 <string name="chat_input_default_value">Nachricht eingeben</string>
 <string name="chat_self">Ich</string>
 <string name="chat_error">Fehler</string>
@@ -299,7 +298,7 @@ Local fingerprint %s\n\nRemote fingerprint %s\n\nVerify fingerprint ?</string>
 <string name="contact_status_msg_xa">N/A</string>
 <string name="contact_status_msg_offline">Offline</string>
 
-<string name="privacy_list_name">Beem - Meine Privatsphärenliste verwalten</string>
+<string name="privacy_list_name">Pst! - Meine Privatsphärenliste verwalten</string>
 <string name="privacy_list_no_data">Keine Privatsphärenliste vorhanden.</string>
 <string name="privacy_list_menu_create">Privatsphärenliste erstellen</string>
 <string name="privacy_list_create_dialog_title">Privatsphärenliste erstellen</string>

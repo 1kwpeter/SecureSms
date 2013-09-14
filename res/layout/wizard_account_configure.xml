@@ -45,7 +45,7 @@
 		android:inputType="textEmailAddress" android:imeOptions="actionNext"
 		android:layout_width="fill_parent" android:layout_height="wrap_content"
 		android:singleLine="true" 
-		android:hint="beem@beem-project.com "
+		android:hint="handynummer@xmpp.dev-forge.de"
 		android:contentDescription="@string/JabberID"/>
 	    <TextView
 		android:layout_width="fill_parent" android:layout_height="wrap_content"
