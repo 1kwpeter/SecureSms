@@ -36,14 +36,28 @@
                 android:text="@string/create_account_username"
                 style="@style/Label"/>
 
+        <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:orientation="horizontal">
+
+
+            <Spinner
+                    android:layout_width="100dp"
+                    android:layout_height="fill_parent"
+                    android:entries="@array/country_arrays"
+                    android:id="@+id/create_account_usercountry"/>
+
             <EditText
                     android:id="@+id/create_account_username"
                     android:imeOptions="actionNext"
                     android:layout_width="fill_parent"
                     android:layout_height="fill_parent"
-                    android:singleLine="true"
+                    android:singleLine="false"
                     android:contentDescription="@string/create_account_username"
                     android:inputType="number"/>
+
+            </LinearLayout>
 
             <TextView
                     android:layout_width="fill_parent"

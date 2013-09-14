@@ -20,6 +20,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Spinner;
 import android.widget.TextView;
 
 import com.beem.project.beem.BeemApplication;
@@ -47,6 +48,7 @@ import java.util.regex.Pattern;
  */
 public class CreateAccountFragment extends Fragment implements android.view.View.OnClickListener {
     private static final String TAG = CreateAccountFragment.class.getSimpleName();
+    private Spinner usercountry;
     private EditText username;
     private EditText password;
     private EditText confirmPassword;
@@ -59,6 +61,7 @@ public class CreateAccountFragment extends Fragment implements android.view.View
     private SharedPreferences settings;
     private static Context context;
     private String server = "xmpp.dev-forge.de";
+
 
     /**
      * Create a CreateAccountFragment.
@@ -86,6 +89,7 @@ public class CreateAccountFragment extends Fragment implements android.view.View
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View v = inflater.inflate(R.layout.create_account, container, false);
+        usercountry = (Spinner) v.findViewById(R.id.create_account_usercountry);
         username = (EditText) v.findViewById(R.id.create_account_username);
         username.addTextChangedListener(mTextWatcher);
         password = (EditText) v.findViewById(R.id.create_account_password);
@@ -126,8 +130,8 @@ public class CreateAccountFragment extends Fragment implements android.view.View
             String phonenumber = null;
             PhoneNumberUtil phoneUtil = PhoneNumberUtil.getInstance();
             try {
-                Phonenumber.PhoneNumber numberProto = phoneUtil.parse(username.getText().toString(), "DE");
-                if(!phoneUtil.isValidNumber(numberProto)){
+                Phonenumber.PhoneNumber numberProto = phoneUtil.parse(username.getText().toString(), String.valueOf(usercountry.getSelectedItem()));
+                if (!phoneUtil.isValidNumber(numberProto)) {
                     username.setError(getString(R.string.create_account_err_username));
                     create = false;
                 }

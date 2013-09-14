@@ -203,13 +203,21 @@
 	<string name="create_account_text">Enter the required informations to create your account</string>
 	<string name="create_account_progress_title">Account creation</string>
 	<string name="create_account_progress_message">Please wait</string>
-	<string name="create_account_err_username">Bad JabberID</string>
+	<string name="create_account_err_username">Invalid phonenumber</string>
 	<string name="create_account_err_passwords">Passwords do not match.</string>
 	<string name="create_account_username">Username</string>
 	<string name="create_account_password">Password</string>
 	<string name="create_account_confirm_password">Confirm password</string>
 	<string name="create_account_err_conflict">This account is already used. Please try another one</string>
 	<string name="create_account_err_connection">The selected server is not available. Please try another one</string>
+
+    <string name="create_account_usercountry">Choose a country</string>
+
+    <string-array name="country_arrays">
+        <item>DE</item>
+        <item>AT</item>
+        <item>CH</item>
+    </string-array>
 			
 
 	<!-- ContactList Activity  -->
